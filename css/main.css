@@ -1,8 +1,11 @@
 /*********************
 	Defaults
 **********************/
+
 html {
   box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -11,8 +14,6 @@ html {
 
 body {
   display: block;
-  font-family: 'Merriweather', serif;
-  line-height: 1.5;
 }
 
 [role="banner"] {
@@ -28,18 +29,18 @@ img {
 
 figcaption {
   padding: 1rem;
-  color: #FFFFFF;
+  color: #fff;
   font-style: italic;
   font-size: 1.8rem;
 }
 
 figure p {
   padding: 1rem;
-  color: #FFFFFF;
+  color: #fff;
   font-size: 1.5rem;
 }
 
-[role=main] {
+[role="main"] {
   display: grid;
   grid-auto-columns: 1fr;
   grid-auto-rows: 10rem;
@@ -51,7 +52,6 @@ figure p {
   margin-right: .75rem;
   margin-top: .75rem;
   margin-bottom: 1rem;
-
 }
 
 #colossus {
@@ -67,8 +67,6 @@ figure p {
   margin-top: .75rem;
   margin-bottom: 1rem;
 }
-
-
 
 /*****************
   	CSS Grid
